@@ -93,6 +93,17 @@ linters:
       - third_party$
       - builtin$
       - examples$
+  settings:
+    depguard:
+      rules:
+        Main:
+          files:
+            - $all
+          allow:
+            - $gostd
+            - github.com/db-tech-uk
+            - github.com/llgcode/draw2d
+            - golang.org/x/image/font
 formatters:
   enable:
     - gci
