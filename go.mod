@@ -1,4 +1,4 @@
-module github.com/rockwell-uk/go-draw
+module github.com/db-tech-uk/go-draw
 
 go 1.18
 
